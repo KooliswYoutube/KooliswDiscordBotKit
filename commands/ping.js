@@ -6,6 +6,6 @@ module.exports.run = async (client, message, args) => {
 message.channel.send("Pinging...").then(message => {
 
 const end = Date.now()
-message.edit(`Network Delay: **${(end - start)}**ms!`)
+message.edit(`網路延遲: **${(end - start)}**ms!`)
 })
 }
